@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F0F3FF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center; 
+    color: #2D9596;
+    font-size: 36px;
+    word-spacing: 8px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.pertanyaan{
+    text-align: left;
+    font-size: 30px;
+    color: #2D9596;
+}
+
+h2{
+    text-align: justify;
+    padding-left: 10px ;
+    padding-right: 50px ;
+    font-size: 24px;
+}
+
+.pengenalan{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.perhitungan{
+    padding-left: 10px;
+}
+
+button{
+    padding-left: 5px ;
+    padding-right: 5px ;
+    border-radius: 10px;
+}
+button:hover{
+    color: #fffbfb;
+    background: #ee0000;
+}
+
+#celcius{
+    background-color: #e5d9d9;
+    border-radius: 1px  ;
+}
+
+.fahrenheit{
+    background-color: #e5d9d9;
+    border-radius: 1px ;
+}
+
+.cara_kalkulasi{
+    background-color: #e5d9d9;
+    border-radius: 1px  ;
+}

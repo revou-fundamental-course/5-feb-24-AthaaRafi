@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kalkulator suhu</title>
+    <link rel="stylesheet" href="css/kalkulator_style.css">
+</head>
+<body>
+    <h1>
+        Kalkulator Suhu
+    </h1>
+    <hr>
+    <br>
+    <h2 class="pertanyaan">
+        Apa itu Kalkulator Suhu?
+    </h2>
+    <br>
+    <h2>
+        Kalkulator suhu adalah alat atau aplikasi yang digunakan untuk mengkonversi suhu dari satu satuan ke satuan lainnya. Biasanya, kalkulator suhu dapat mengubah suhu dari Celcius ke Fahrenheit, Kelvin ke Celcius, atau sebaliknya. Beberapa kalkulator suhu juga dapat menghitung perbedaan suhu, mengubah suhu dari satu sistem pengukuran ke sistem lainnya, dan memberikan estimasi suhu berdasarkan masukan data. Kalkulator suhu sangat berguna dalam berbagai konteks, mulai dari ilmu pengetahuan hingga aplikasi sehari-hari seperti memasak, industri, dan rekayasa.
+    </h2>
+    <br>
+    <hr>
+    <br><br>
+    <div class="pengenalan">
+        <p>
+            Mari kita langsung mencobanya
+        </p>
+        <p>
+            Masukan  suhu derajat Celcius (°C) ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheit (°F)
+        </p>
+    </div>
+    <br> 
+    <div class="perhitungan">    
+        <p>
+            Input Angka:
+        </p>
+        <div id="celcius-container">
+            <p>
+                <textarea name="celcius" id="celcius" cols="80" rows="5"></textarea>
+            </p>
+        </div>
+        <button type="submit" name="konversi" id="konversi-btn">KONVERSI</button>
+        <button type="reset" name="reset" id="reset-btn">RESET</button>
+        <div>
+            <select name="" id="pilihan_suhu">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celcius">Celcius</option>
+            </select>
+        </div>
+        <p>
+            Hasil:
+        </p>
+        <div class="fahrenheit">
+            <p>
+                <textarea name="fahrenheit" id="fahrenheit" cols="80" rows="5"></textarea>
+            </p>
+        </div>
+                    
+        <p>
+            Cara Kalkulasi :
+        </p>
+        <div class="cara_kalkulasi">
+            <p>
+                <textarea name="cara kalkulasi" id="cara_kalkulasi" cols="80" rows="5"></textarea>
+            </p>
+        </div>
+    </div>
+    <br>
+    <h3>
+        Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F)
+    </h3>
+    <hr>
+    
+    <script src="js/kalkulator.js"></script>
+</body>
+</html>
